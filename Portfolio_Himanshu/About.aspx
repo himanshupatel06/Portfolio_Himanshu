@@ -17,7 +17,7 @@
 		<div class="col-md-6">
 			<!-- ===== Images ===== -->
 			<div class="side-images pull-left">
-				<img src="images/pro.jpg" alt="Feature" class="img-responsive">
+				<img src="assets/images/himanshu.jpg" alt="Feature" class="img-responsive">
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -34,10 +34,19 @@
 					</div>
 					<!-- ===== Detailt Post===== -->
 					<div class="details pull-left">
-						<h6>About Me</h6>
+						
+                       <br />
 						<p>
-							My name is himanshu patel.
+							Hi, Myself Himanshu Patel. I am currently studying in computer programmer course in georgian college, Barrie.  
 						</p>
+                        <br /><br />
+                        <p>
+                            I made this site so that i will be able to show people about myself. I have a fair amount of knowledge in ASP.NET, Android application developement programming and Programming with Express.Js technology.
+                        </p>
+                        <br /><br />
+                        <p>
+                            Nothing bring me more pleasure than making something out of mothing. In my leisure time i always search for new ideas and news around worlds. My other Hobbies are playing cricket and listening to musics. 
+                        </p>
 					</div>
 					</li>
 					

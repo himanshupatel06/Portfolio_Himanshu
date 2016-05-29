@@ -67,6 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\images\1.png" />
+    <Content Include="assets\images\2.png" />
+    <Content Include="assets\images\arduino.jpg" />
+    <Content Include="assets\images\himanshu.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
@@ -169,7 +173,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\" />
     <Folder Include="css\colors\" />
     <Folder Include="css\themes\" />
   </ItemGroup>
