@@ -8,23 +8,17 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			
-			<h2>Contact</h2>
+			<h2>Contact Me</h2>
 			<div class="underline"></div>
 			<div class="sub-sub">
-			    Lorem ipsum dolor sit amet, consectetur adipisicing elitRepellat, ea laudantium.
+			    
 			</div>
 			
             <!-- ===== Form ===== -->
             <form class="contact-form" id="contact" role="form">
 
                 <!-- ===== Succes Send Email ===== -->
-                <h6 class="success">
-                <span class="olored-text icon_check"></span> Your message successfully. </h6>
-
-                <!-- ===== Error Send Email ===== -->
-                <h6 class="error">
-                <span class="colored-text icon_error-circle_alt"></span> your message sent pending. </h6>
-
+                
                 <div class="field-wrapper col-md-6">
                     <input class="form-control input-box" id="contact-form-name" type="text" name="contact-form-name" placeholder="Your Name">
                 </div>
