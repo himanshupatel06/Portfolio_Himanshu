@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Portfolio_Himanshu
 {
-    public partial class abcde : System.Web.UI.Page
+    public partial class Site2 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
         {
 
         }

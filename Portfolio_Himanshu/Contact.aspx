@@ -1,7 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Portfolio_Himanshu.Contact" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Portfolio_Himanshu.abcde" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section id="section-contact" class="section-contact bgc-one">
     <div class="container">
 	
@@ -20,26 +21,32 @@
                 <!-- ===== Succes Send Email ===== -->
                 
                 <div class="field-wrapper col-md-6">
-                    <input class="form-control input-box" id="contact-form-name" type="text" name="contact-form-name" placeholder="Your Name">
+                    <asp:Label ID="Label1" runat="server" Text="Your Name"></asp:Label>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 </div>
 
                 <div class="field-wrapper col-md-6">
-                    <input class="form-control input-box" id="contact-form-email" type="email" name="contact-form-email" placeholder="Email">
+                    <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
+                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                 </div>
 
                 <div class="field-wrapper col-md-12">
-                    <input class="form-control input-box" id="contact-form-subject" type="text" name="contact-form-subject" placeholder="Subject">
+                    <asp:Label ID="Label3" runat="server" Text="Contact No"></asp:Label>
+                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
                 </div>
 
                 <div class="field-wrapper col-md-12">
-                    <textarea class="form-control textarea-box" id="contact-form-message" rows="7" name="contact-form-message" placeholder="Your Message"></textarea>
+                    <asp:Label ID="Label4" runat="server" Text="Message"></asp:Label>
+                    <asp:TextBox ID="TextBox4" TextMode="MultiLine" runat="server"></asp:TextBox>
                 </div>
 
-                <button class="btn standard-button" type="submit" id="contact-form-submit" name="submit" data-style="expand-left">Send Message</button>
+            <asp:Button class="btn standard-button" type="submit" ID="Button1" data-style="expand-left" runat="server" OnClick="Button1_Click" Text="Send Message" />
+			     
             </form>
             <!-- ===== End Form ===== -->
 			
 		</div>
+	    <asp:Label ID="Label5" runat="server" Text="Message send successfully" Visible="False"></asp:Label>
 	</div>
 	
 </div>

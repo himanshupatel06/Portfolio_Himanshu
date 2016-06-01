@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Portfolio_Himanshu.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Portfolio_Himanshu.Site2" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -73,12 +73,11 @@
     </nav>
 
     <div>
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
     </form>
-
     <form>
     <tr colspan='0'><!-- start footer -->
 <footer class="footer-distributed">
@@ -133,6 +132,7 @@
    })
 </script></tr>
         </form>
+    
     <!-- JavaScript Section -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
