@@ -82,7 +82,7 @@
     <tr colspan='0'><!-- start footer -->
 <footer class="footer-distributed">
    <div class="footer-left">
-       <td>
+       
       <p class="footer-links">
          <a href="/">Home</a>
          ·
@@ -90,7 +90,7 @@
          ·
          <a href="Contact.aspx">Contact Us</a>
       </p>
-     </td>
+     
    </div>
    <div class = "footer-center" >
       <div class = "footer-icons">

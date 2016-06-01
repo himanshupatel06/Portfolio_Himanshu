@@ -20,14 +20,14 @@
 
                 <!-- ===== Succes Send Email ===== -->
                 
-                <div class="field-wrapper col-md-6">
+                <div class="field-wrapper col-md-12">
                     <asp:Label ID="Label1" runat="server" Text="Your Name"></asp:Label>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox><br />
                 </div>
 
-                <div class="field-wrapper col-md-6">
-                    <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                <div class="field-wrapper col-md-12">
+                    <asp:Label ID="Label6" runat="server" Text="Email"></asp:Label>
+                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
                 </div>
 
                 <div class="field-wrapper col-md-12">
