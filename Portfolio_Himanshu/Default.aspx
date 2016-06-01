@@ -33,7 +33,7 @@
 
 <!-- ===== Responsive CSS ===== -->
 <link rel="stylesheet" href="css/responsive.css">
-
+    <body style="background-image:url(assets/images/background.jpg)">
     <div class="container">
 		
 		<div class="row">
@@ -41,11 +41,11 @@
 			<div class="col-md-10 col-md-offset-1 distance-header">
 				
 				<h1>
-                    <strong>HIMANSHU PATEL</strong>
+                  <font color="red">  <b>HIMANSHU PATEL</b></font>
 				</h1>
 				<div class="underline"></div>
 				<h1>
-                    WELCOME TO MY BLOG
+                  <font color="red">  WELCOME TO MY BLOG</font>
 				</h1>
 				
 				
@@ -62,4 +62,5 @@
 		</div>
 		
 	</div>
+        </body>
 </asp:Content>
